@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name" : "WordADay",
+	"description" : "This extension will bring to you a english word with its meaning everyday when clicked.",
+	"version" : "1.0.0",
+	"icons" : {
+		"40" : "images/icon.png"
+	},
+	"browser_action" : {
+	"default_icon" : "images/icon.png",
+	"default_popup" : "popup.html",
+    "default_title" : "Giving you one word a day!"
+	},
+	"permissions" : [
+		"activeTab"
+	],
+	"author" : "Diney Wankhede"
+} 
